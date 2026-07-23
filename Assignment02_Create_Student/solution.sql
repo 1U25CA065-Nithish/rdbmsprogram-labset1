@@ -15,9 +15,6 @@ USE CollegeDB;
 -- DepartmentID
 
 -- Add constraints
-
-USE CollegeDB;
-
 CREATE TABLE Student (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL,
