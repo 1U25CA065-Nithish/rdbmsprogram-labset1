@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mysql -uroot -proot < solution.sql
+mysql -h 127.0.0.1 -uroot -proot < solution.sql
 
-mysql -uroot -proot -e "
+mysql -h 127.0.0.1 -uroot -proot -e "
 USE CollegeDB;
 DESCRIBE Student;
 " > output.txt
