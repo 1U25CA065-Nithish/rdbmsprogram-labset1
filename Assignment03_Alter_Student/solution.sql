@@ -19,6 +19,6 @@ CREATE TABLE Student(
 -- Display structure
 ALTER TABLE Student
 ADD Email VARCHAR(30),
-ADD PhoneNumber BIGINT;
+ADD PhoneNumber VARCHAR(10);
 
 DESCRIBE Student;
