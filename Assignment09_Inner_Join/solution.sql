@@ -39,4 +39,7 @@ SELECT
     Department.DepartmentName
 FROM 
     Student
-INNER JOIN Department ON Student.DepartmentID = Department.DepartmentID;
+INNER JOIN 
+    Department ON Student.DepartmentID = Department.DepartmentID
+ORDER BY 
+    Student.StudentID;
