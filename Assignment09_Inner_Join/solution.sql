@@ -35,8 +35,8 @@ INSERT INTO Student (StudentID, StudentName, DepartmentID) VALUES
     (5, 'Karthik Nair', 102);
 
 SELECT 
-    Student.StudentName, 
-    Department.DepartmentName
+    Student.StudentName AS 'Student Name', 
+    Department.DepartmentName AS 'Department Name'
 FROM 
     Student
 INNER JOIN 
